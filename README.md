@@ -1,13 +1,21 @@
 # Word Occurrences 
-# Systems Programming Project 2
+# CS 214: Systems Programming Project 2
 
 ## Author
-- Name: Ananya Balaji (no partner)
+- Name: Ananya Balaji
 - NetID: ab2389
 
 ## Overview
-This is a project that processes the words and its number of occurrences of files in a given directory and its subdirectories.
-I first drew out a Finite State Automata as an ideation (to develop each case in a switch statement) before starting my code, and considered possible cases including:
+This is a project that processes the words and its number of occurrences of files in a given directory and its subdirectories. 
+
+A word is a sequence of letters and some punctuation. Specifically,
+the apostrophe (single quote) may occur anywhere within a word, and a hyphen (dash) may occur in a word, but only if preceded and followed by a letter.
+
+This project consider numbers, whitespace, and other punctuation to separate words. For simplicity, capitalization is significant.
+
+The code takes one or more arguments, which may be text files or directories. It will open and process each named text file. For directories, words will recursively seek and process files in the directory whose names end with “.txt”.
+
+I first drew out a Finite State Automata (to develop each case in a switch statement) before starting my code, and considered possible cases including:
 
 ## Test Cases
 - Files and Directories with and without read() access
@@ -18,7 +26,7 @@ I first drew out a Finite State Automata as an ideation (to develop each case in
     - Apostrophe Hyphen Letter
     - Apostrophe Hyphen Apostrophe
 - this is because of how apostrophes act similar to letters, except differently when next to hyphens
-- to address them, I used variables called prevApos and prevAlpha to determine if the character prior to the Hyphen was a Apostrophe or Alphabet Letter and made changes accordingly.
+- to address them, I used variables called prevApos and prevAlpha to determine if the character prior to the Hyphen was a Apostrophe or Alphabetic Letter and made changes accordingly.
 
 ## Error Cases Looked Into
 
