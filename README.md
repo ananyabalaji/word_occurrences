@@ -1,5 +1,6 @@
 # Word Occurrences 
 # CS 214: Systems Programming Project 2
+# Grade: 100%
 
 ## Author
 - Name: Ananya Balaji
