@@ -1,7 +1,4 @@
-# Word Occurrences 
-
-## Author
-- Name: Ananya Balaji
+# Word Occurrences - Ananya Balaji
 
 ## Overview
 This is a project that processes the words and its number of occurrences of files in a given directory and its subdirectories. 
