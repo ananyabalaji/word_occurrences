@@ -1,10 +1,7 @@
 # Word Occurrences 
-# CS 214: Systems Programming Project 2
-# Grade: 100%
 
 ## Author
 - Name: Ananya Balaji
-- NetID: ab2389
 
 ## Overview
 This is a project that processes the words and its number of occurrences of files in a given directory and its subdirectories. 
